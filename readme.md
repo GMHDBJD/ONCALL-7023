@@ -8,7 +8,9 @@ go build main.go
 ```
 
 # Dependency
-1. tiup install ctl:v7.5.1
+```
+tiup install ctl:v7.5.1
+```
 
 # Step
 2. get table id
