@@ -2,7 +2,10 @@ module oncall
 
 go 1.21.0
 
-require github.com/pingcap/tidb v1.1.0-beta.0.20240725074805-628b7ed6739d
+require (
+	github.com/pingcap/errors v0.11.5-0.20240318064555-6bd07397691f
+	github.com/pingcap/tidb v1.1.0-beta.0.20240725074805-628b7ed6739d
+)
 
 require (
 	github.com/BurntSushi/toml v1.4.0 // indirect
@@ -34,7 +37,6 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/petermattis/goid v0.0.0-20231207134359-e60b3f734c67 // indirect
-	github.com/pingcap/errors v0.11.5-0.20240318064555-6bd07397691f // indirect
 	github.com/pingcap/failpoint v0.0.0-20240528011301-b51a646c7c86 // indirect
 	github.com/pingcap/kvproto v0.0.0-20240620063548-118a4cab53e4 // indirect
 	github.com/pingcap/log v1.1.1-0.20240314023424-862ccc32f18d // indirect
